@@ -44,13 +44,17 @@
   
 <h2>MATERI 2: Relative Layout</h2>
 <h5>Project Relative Layout ini kita membuat sebuah logo dengan berbagai letak.</h5>
-<h5>Untuk mengatur posisi ImageView pada layout Relative View, kita bisa menggunakan:</h5>  
+<h5>Untuk mengatur posisi ImageView pada layout Relative View, kita bisa menggunakan kode berikut:</h5>  
 <h5>1. android:layout_alignParentStart="true"</h5>  
 <h5>2. android:layout_alignParentTop="true"</h5> 
 <h5>3. android:layout_alignParentBottom="true"</h5> 
 <h5>4. android:layout_alignParentRight="true"</h5> 
 <h5>5. android:layout_alignParentEnd="true"</h5> 
-<h5></h5> 
-<h5></h5> 
+<h5>Kita juga bisa menempatkan objek sesuai dengan objek lainnya dengan menggunakan kode berikut:</h5> 
+<h5>1. android:layout_above="id objek"</h5> 
+<h5>2. android:layout_toStartOf="id objek"</h5> 
+<h5>3. android:layout_toLeftOf="id objek"</h5> 
+<h5>4. android:layout_below="id objekr"</h5> 
+<h5>5. android:layout_toEndOf="id objek"</h5> 
 <img src="1.jpg" height="600px" width="300px">
 
